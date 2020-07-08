@@ -26,6 +26,7 @@
     "chromedriver": "^83.0.0",
     "faker": "^4.1.0",
     "prettier": "^2.0.5",
-    "wdio-chromedriver-service": "^6.0.3"
+    "wdio-chromedriver-service": "^6.0.3",
+    "wdio-image-comparison-service": "^1.13.6"
   }
 }
