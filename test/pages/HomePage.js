@@ -15,12 +15,21 @@ class HomePage extends BasePage {
     return $('.tcom-threesixty-image.active');
   }
 
-  selectColorBtn(colorName) {
-    return $('//button[@data-color-name*="${colorName}"]');
+  get selectVehicle(){
+    return $('[data-service="selectVehicles"]');
   }
 
+  get crossoverButton(){
+    return $('li[data-model-category="crossovers-suvs"] button');
+  }
+
+  get highlanderImgTitle(){
+    return $('//p[text()="2020 Highlander"]');
+  }
+
+
   open() {
-    super.open('https://www.toyota.com/');
+    super.open('/');
   }
 }
 export default new HomePage();
