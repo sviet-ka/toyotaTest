@@ -17,6 +17,7 @@ describe('Example', () => {
   before (() => {
     browser.url('https://www.toyota.com/rav4prime/');
     browser.setWindowSize(1920, 1080)
+
   })
 
   it('should save screenshot of a car being explored', () => {
