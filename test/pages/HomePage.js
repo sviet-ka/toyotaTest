@@ -27,6 +27,10 @@ class HomePage extends BasePage {
     return $('//p[text()="2020 Highlander"]');
   }
 
+  get financialServicesAnchor() {
+    return $('[data-di-id="#https://www.toyotafinancial.com"]');
+  }
+
 
   open() {
     super.open('/');
